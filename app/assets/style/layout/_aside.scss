@@ -1,0 +1,37 @@
+.aside {
+  width: 18.5rem;
+  min-height: 100vh;
+  position: relative;
+}
+
+.logo {
+  display: block;
+  width: 150px;
+  height: 48px;
+  background: url("../images/logo-ANSWER.svg") center no-repeat;
+  background-size: contain;
+  white-space: nowrap;
+  text-indent: 101%;
+  overflow: hidden;
+}
+
+.nav {
+  &__link {
+    border-left: 0.25rem solid transparent;
+  }
+  &__item--active a {
+    color: $primary;
+    border-color: $primary;
+  }
+}
+
+.user {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  &__img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+  }
+}

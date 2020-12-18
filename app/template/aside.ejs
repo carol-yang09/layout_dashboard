@@ -1,0 +1,58 @@
+<aside class="aside bg-secondary">
+  <h1 class="p-9">
+    <a href="#" class="logo">
+      ANSWER
+    </a>
+  </h1>
+
+  <ul class="nav list-unstyled">
+    <li class="w-100 mb-4">
+      <a href="/index.html" class="nav__link d-block pl-7 py-1 h4 font-weight-bold">
+        <span class="material-icons mr-4 align-middle">assessment</span>
+        <span class="align-middle">Dashboard</span>
+      </a>
+    </li>
+    <li class="w-100 mb-4">
+      <a href="#" class="nav__link d-block pl-7 py-1 h4 font-weight-bold">
+        <span class="material-icons mr-4 align-middle">question_answer</span>
+        <span class="align-middle">Question</span>
+      </a>
+    </li>
+    <li class="w-100 mb-4 <% if (current === 'index') { %> nav__item--active <% } %>">
+      <a href="index.html" class="nav__link d-block pl-7 py-1 h4 font-weight-bold">
+        <span class="material-icons mr-4 align-middle">assignment</span>
+        <span class="align-middle">Assignment</span>
+      </a>
+    </li>
+    <li class="w-100 mb-4">
+      <a href="#" class="nav__link d-block pl-7 py-1 h4 font-weight-bold">
+        <span class="material-icons mr-4 align-middle">video_library</span>
+        <span class="align-middle">Course</span>
+      </a>
+    </li>
+    <li class="w-100 mb-4 <% if (current === 'admin') { %> nav__item--active <% } %>">
+      <a href="/admin.html" class="nav__link d-block pl-7 py-1 h4 font-weight-bold">
+        <span class="material-icons mr-4 align-middle">group</span>
+        <span class="align-middle">Admin</span>
+      </a>
+    </li>
+    <li class="w-100 mb-4">
+      <a href="#" class="nav__link d-block pl-7 py-1 h4 font-weight-bold">
+        <span class="material-icons mr-4 align-middle">settings</span>
+        <span class="align-middle">Settings</span>
+      </a>
+    </li>
+  </ul>
+  
+  <div class="user d-flex justify-content-center align-items-center">
+    <img src="./assets/images/andychen.jpeg" class="user__img mr-4">
+    <ul class="list-unstyled">
+      <li class="mb-1">
+        <a href="#" class="font-weight-bold">Andy Chen</a>
+      </li>
+      <li class="text-muted h5">andy0401@mail.com</li>
+    </ul>
+  </div>
+
+
+</aside>
